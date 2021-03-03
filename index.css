@@ -1,0 +1,140 @@
+html
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Navigation/Header */
+
+nav
+{
+    background-color: greenyellow;
+}
+
+label.Name
+{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+nav ul.Links
+{
+    float:right;
+}
+
+ul.Links
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+li.List a.Link
+{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+a.Link#active
+{
+    background-color: yellow;
+    padding: 10px 10px;
+}
+
+a.Link:hover
+{
+    background-color: darkgreen;
+    padding: 10px 10px;
+}
+
+/* Navigation/Header */
+
+/* Body */
+
+div.Body
+{
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 86px;
+}
+
+img.Image
+{
+    float: right;
+    border-radius: 50%;
+}
+
+span.Greeting
+{
+    color: green;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+label.Intro
+{
+    font-size: 30px;
+}
+
+h1.Name1
+{
+    color: green;
+    font-size: 70px;
+    font-weight: normal;
+}
+
+ul.Skills
+{
+    margin-bottom: 100px;
+}
+
+li.Skill
+{
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: lightgreen;
+}
+
+div.Accounts
+{
+    display: flex;
+}
+
+p#Sentence
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+img.ImageLogo
+{
+    margin-left: 20px;
+}
+
+/* Body */
+
+/* Footer */
+
+div#Footer
+{
+    background-color: greenyellow;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* Footer */
+
